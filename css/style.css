@@ -114,7 +114,7 @@ a.nav-item.nav-link {
 .holy__holyday{
   position: relative;
   margin-bottom: 70px;
-  font-size: 20px;
+  font-size: 1.25rem;
   text-align: center;
 }
 .center {
@@ -201,15 +201,15 @@ a.nav-item.nav-link {
 
 .home-slider__title {
   font-weight: 700;
-  font-size: 35px;
-  line-height: 40px;
+  font-size: 2.1875rem;
+  line-height: 2.5rem;
   margin-bottom: 10px;
 }
 
 .home-slider__description {
   font-weight: 400;
-  font-size: 18px;
-  line-height: 20px;
+  font-size: 1.125rem;
+  line-height: 1.25rem;
   margin-bottom: 60px;
 
 }
@@ -319,8 +319,8 @@ a.nav-item.nav-link {
 }
 
 .about-box__title {
-  font-size: 35px;
-  line-height: 45px;
+  font-size: 2.1875rem;
+  line-height: 2.8125rem;
   color: #202020;
   font-weight: 700;
   padding: 13px 15px 15px 48px;
@@ -415,8 +415,8 @@ a.nav-item.nav-link {
 
 .reviews__item-text:before {
   content: "“";
-  font-size: 40px;
-  line-height: 55px;
+  font-size: 2.5rem;
+  line-height: 3.4375rem;
   font-weight: 700;
   position: absolute;
   top: 0;
@@ -439,8 +439,8 @@ a.nav-item.nav-link {
 }
 
 .video-news__title {
-  font-size: 35px;
-  line-height: 45px;
+  font-size: 2.1875rem;
+  line-height: 2.8125rem;
   color: #202020;
   font-weight: 700;
   text-align: center;
@@ -484,7 +484,7 @@ a.nav-item.nav-link {
 .contact-us {
   text-align: center;
   width: 100%;
-  font-size: 35px;
+  font-size: 2.1875rem;
   margin-bottom: 60px;
   padding-top: 30px;
   color: #000;
@@ -717,7 +717,7 @@ a.nav-item.nav-link {
 .home-radio-clock ul li span {
   padding-left: 4em;
   color: #0BC7B4;
-  font-size: 18px;
+  font-size: 1.125rem;
   
 }
 
@@ -729,7 +729,7 @@ a.nav-item.nav-link {
 .home-radio-clock-right ul li,
 .home-radio-clock-right ul li a {
   color: #8C969D;
-  font-size: 18px;
+  font-size: 1.125rem;
   list-style-type: none;
 }
 
@@ -755,7 +755,7 @@ a.nav-item.nav-link {
   padding: 0 40px;
 }
 .footer__copy{
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
 }
 
@@ -870,13 +870,13 @@ a.nav-item.nav-link {
 
   .home-slider__description {
     margin-bottom: 20px;
-    font-size: 20px;
-    line-height: 35px;
+    font-size: 1.25rem;
+    line-height: 2.1875rem;
   }
 
   .home-slider__title {
-    font-size: 35px;
-    line-height: 45px;
+    font-size: 2.1875rem;
+    line-height: 2.8125rem;
   }
   .slick-prev {
     left: 154px;
@@ -905,6 +905,12 @@ a.nav-item.nav-link {
 }
 
 @media (max-width: 500px){
+  .home-slider{
+    padding: 85px 0 55px 0px;
+  }
+  .contact{
+    padding: 0;
+  }
   .contact-us-bottom {
     display: block;
   }
