@@ -9,23 +9,16 @@ $(function () {
   });
 
 
-  // $(window).scroll(function () {
-  //   if ($('.navbar').offset().top > 50) {
-  //     $('.navbar-fixed-top').addClass('.top-nav-collapse');
-  //   } else {
-  //     $('.navbar-fixed-top').removeClass('.top-nav-collapse');
-  //   }
-  // });
-
-  
   $('.video-news__slider').slick({
     dots: true,
     infinite: false,
     speed: 300,
     slidesToShow: 2,
     slidesToScroll: 2,
+    autoplay: true,
+    autoplaySpeed: 2000,
     responsive: [{
-      breakpoint: 1194,
+      breakpoint: 1190,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
